@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <title>ENCRIPTADOR</title>
+    </head>
+    <body>
+        <header>
+            <img class= "logo" src="img/logo.png" alt="Logo de alura">
+        </header>
+        <main>
+            <section class="primera_columna">
+                <div>
+                    <textarea class= "texto_ingreso" placeholder="Ingrese el texto aqui"></textarea>
+                </div>
+                <div class="informacion">
+                    <img class="img_alerta" src="img/Vector.png">
+                    <p class="parrafo_informacion">Solo letras minúsculas y sin acentos.</p>
+                </div>
+                <div class="botones">
+                    <input type= "button" class="encriptar" value="Encriptar" onclick="botonEncriptar()">
+                    <input type="button" class="desencriptar" value="Desencriptar" onclick="botonDesencriptar()">
+                </div>
+            </section>
+            <section class="segunda_columna">
+                <div class="caja">
+                    <textarea class="texto_egreso" placeholder=""></textarea>                                   
+                    <input type="button" class="botonCopiar" value="Copiar"onclick="botonCopiar()">
+                    <div class="parrafos_segunda_columna">
+                        <h2 class="h2">Ningún mensaje fue encontrado</h2>
+                        <h3 class="h3">Ingresa el texto que desees encriptar o desencriptar.</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy Todos los derechos resevados Analia Novoa - 2022</p>
+        </footer>    
+        <script src="script.js"></script>
+    </body>
+</html>

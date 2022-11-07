@@ -8,7 +8,7 @@ sin que se sobrescriban y se pueda realizar el desencriptado correspondiente. En
 Esta en proceso de mejoras.**
 
 <p align="center" >
-       <img width="600" heigth="400" src="img/encriptador.png">
+       <img width="600" heigth="400" src="https://github.com/analianovoa/analianovoa.github.io/blob/889665810976869651a92726bb1447133ca6f4a9/assets/img/proyectos/secretcode_print.gif">
 </p>
 
 

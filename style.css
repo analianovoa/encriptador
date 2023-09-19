@@ -173,3 +173,19 @@ footer {
     font-size: 12px;
     line-height: 150%;
 }
+
+
+@media only screen and (max-width: 690px) {
+    main{
+        flex-direction: column;
+    }
+    .encriptar{    
+        font-size: 15px;
+    }
+    .desencriptar{
+        font-size: 15px;
+    }
+    .segunda_columna {
+        width: 80vw;
+    }
+}
